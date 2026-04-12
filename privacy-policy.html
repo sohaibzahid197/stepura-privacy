@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepura - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fffe; color: #1a1a2e; line-height: 1.8; }
+        .header { background: linear-gradient(135deg, #06b6d4, #0891b2, #0e7490); padding: 40px 20px; text-align: center; color: white; }
+        .header h1 { font-size: 2rem; font-weight: 800; }
+        .header p { opacity: 0.85; margin-top: 4px; }
+        .back { display: inline-block; margin: 20px; color: #0891b2; text-decoration: none; font-weight: 600; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px 20px 60px; }
+        h2 { color: #0e7490; margin: 32px 0 12px; font-size: 1.3rem; }
+        h3 { color: #0891b2; margin: 20px 0 8px; font-size: 1.1rem; }
+        p, li { margin-bottom: 10px; color: #333; }
+        ul { padding-left: 24px; }
+        .highlight { background: #06b6d410; border-left: 4px solid #06b6d4; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 20px 0; }
+        .updated { text-align: center; color: #666; font-size: 0.9rem; margin-top: 8px; }
+        footer { text-align: center; padding: 30px; color: #666; font-size: 0.9rem; border-top: 1px solid #e0e0e0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Privacy Policy</h1>
+        <p>Stepura - Daily Fitness Challenges & Step Tracker</p>
+    </div>
+    <a class="back" href="index.html">&larr; Back to Home</a>
+    <div class="container">
+        <p class="updated"><strong>Last Updated:</strong> April 13, 2026</p>
+        <p class="updated"><strong>Effective Date:</strong> April 13, 2026</p>
+
+        <div class="highlight">
+            <strong>Summary:</strong> Stepura does NOT collect, transmit, or share any personal data. All your information stays on your device only. We have no servers, no accounts, and no tracking.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to Stepura ("we", "our", "us"). Stepura is a mobile fitness application that helps users track daily steps, create fitness challenges, maintain activity streaks, and monitor health-related metrics. This Privacy Policy explains how your information is handled when you use our application.</p>
+        <p>By using Stepura, you agree to the practices described in this Privacy Policy.</p>
+
+        <h2>2. Information We Do NOT Collect</h2>
+        <p>Stepura is designed with your privacy as a priority. We want to be transparent:</p>
+        <ul>
+            <li>We do <strong>NOT</strong> collect any personal information</li>
+            <li>We do <strong>NOT</strong> transmit any data to external servers</li>
+            <li>We do <strong>NOT</strong> use analytics or tracking services</li>
+            <li>We do <strong>NOT</strong> use advertising SDKs or ad networks</li>
+            <li>We do <strong>NOT</strong> share any data with third parties</li>
+            <li>We do <strong>NOT</strong> require user accounts or login</li>
+            <li>We have <strong>NO</strong> servers or databases that store your data</li>
+        </ul>
+
+        <h2>3. Information Stored Locally on Your Device</h2>
+        <p>To provide the app's functionality, Stepura stores the following information <strong>locally on your device only</strong> using the device's internal storage (AsyncStorage):</p>
+
+        <h3>3.1 Profile Information</h3>
+        <ul>
+            <li>Name (for personalized greetings)</li>
+            <li>Email (optional, for future features)</li>
+            <li>Age and gender (for accurate calorie calculations)</li>
+            <li>Weight and height (for stride length and calorie burn calculations)</li>
+        </ul>
+
+        <h3>3.2 Fitness & Activity Data</h3>
+        <ul>
+            <li>Daily step count (from device motion sensors)</li>
+            <li>Estimated calories burned</li>
+            <li>Estimated distance walked</li>
+            <li>Active time duration</li>
+            <li>Daily step history (last 30 days)</li>
+        </ul>
+
+        <h3>3.3 Challenge & Progress Data</h3>
+        <ul>
+            <li>Active and completed challenges</li>
+            <li>Daily challenge completions</li>
+            <li>Streak counts and history</li>
+            <li>Milestone achievements</li>
+        </ul>
+
+        <h3>3.4 App Preferences</h3>
+        <ul>
+            <li>Theme preference (light/dark)</li>
+            <li>Notification settings</li>
+            <li>Daily step goal</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Important:</strong> All data listed above is stored exclusively on your device. It never leaves your phone. We cannot access, view, or retrieve this data in any way.
+        </div>
+
+        <h2>4. Device Permissions</h2>
+        <p>Stepura requests the following Android permissions:</p>
+        <ul>
+            <li><strong>ACTIVITY_RECOGNITION</strong> — Required to access the device's step counter sensor. This is the core functionality of the app. Without this permission, step counting will not work.</li>
+            <li><strong>INTERNET</strong> — Required by the React Native framework. Stepura does not make any network requests or transmit any data.</li>
+            <li><strong>RECEIVE_BOOT_COMPLETED</strong> — Allows the step counter to properly reset its baseline when the device restarts, ensuring accurate daily step counts.</li>
+        </ul>
+
+        <h2>5. Data Security</h2>
+        <p>Since all data is stored locally on your device:</p>
+        <ul>
+            <li>Your data is protected by your device's built-in security (PIN, fingerprint, face unlock)</li>
+            <li>No data is transmitted over the internet, eliminating the risk of interception</li>
+            <li>No cloud storage means no risk of server breaches</li>
+        </ul>
+
+        <h2>6. Data Deletion</h2>
+        <p>You have full control over your data at all times:</p>
+        <ul>
+            <li><strong>Clear app data:</strong> Go to your device Settings &rarr; Apps &rarr; Stepura &rarr; Storage &rarr; Clear Data. This permanently deletes all app data.</li>
+            <li><strong>Uninstall the app:</strong> Uninstalling Stepura automatically removes all stored data from your device.</li>
+        </ul>
+        <p>Since we have no servers or backups, once data is deleted from your device, it cannot be recovered by anyone.</p>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Stepura is not directed at children under the age of 13. We do not knowingly collect any information from children. The app is intended for users aged 18 and above.</p>
+
+        <h2>8. Third-Party Services</h2>
+        <p>Stepura does not integrate with any third-party services, analytics platforms, advertising networks, or social media SDKs. The app operates entirely independently and offline.</p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Last Updated" date. We encourage you to review this page periodically.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy or the Stepura app, please contact us at:</p>
+        <ul>
+            <li><strong>Email:</strong> letsdev.sohaib@gmail.com</li>
+            <li><strong>Developer:</strong> Sohaib Zahid</li>
+        </ul>
+    </div>
+    <footer>
+        &copy; 2026 Stepura. All rights reserved.
+    </footer>
+</body>
+</html>
